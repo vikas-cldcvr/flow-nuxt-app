@@ -14,7 +14,7 @@
             overflow="hidden"
           >
             <f-text size="x-large" variant="heading" align="center">
-              Get Mega Discounts {{ slide }}
+              This is client only component {{ slide }}
             </f-text>
           </f-div>
         </f-carousel-content>
