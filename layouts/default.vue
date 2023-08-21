@@ -1,5 +1,5 @@
 <template>
-  <f-div state="default" height="100%" direction="column">
+  <f-div state="default" width="100%" height="100%" direction="column">
     <f-div
       height="53px"
       padding="medium"
@@ -8,7 +8,7 @@
     >
       <f-icon source="i-cart" size="large"></f-icon>
     </f-div>
-    <f-div padding="x-large">
+    <f-div padding="x-large" width="100%">
       <slot />
     </f-div>
   </f-div>

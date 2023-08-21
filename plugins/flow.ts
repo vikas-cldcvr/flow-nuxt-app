@@ -1,5 +1,6 @@
 import "@cldcvr/flow-core/dist/types/vue3";
 import "@cldcvr/flow-form-builder/dist/types/vue3";
+import "@cldcvr/flow-table/dist/types/vue3";
 
 export default defineNuxtPlugin({
   name: "flow",
@@ -9,8 +10,10 @@ export default defineNuxtPlugin({
       import("@cldcvr/flow-core"),
       import("@cldcvr/flow-form-builder"),
       import("@cldcvr/flow-system-icon"),
+      import("@cldcvr/flow-table"),
       import("@cldcvr/flow-core/dist/style.css"),
       import("@cldcvr/flow-form-builder/dist/style.css"),
+      import("@cldcvr/flow-table/dist/style.css"),
     ]).then(() => {
       console.log("flow loaded");
     });
