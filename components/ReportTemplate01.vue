@@ -283,7 +283,12 @@
             >
               <f-trow role="row" v-for="values in value.rows">
                 <f-tcell role="cell" v-for="(item, index) in values">
-                  <f-div v-if="index === 0" height="hug-content" gap="small">
+                  <f-div
+                    v-if="index === 0"
+                    height="hug-content"
+                    width="hug-content"
+                    gap="small"
+                  >
                     <f-icon
                       source="i-circle"
                       size="x-small"
