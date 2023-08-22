@@ -1,5 +1,11 @@
 <template>
-  <f-div state="default" width="100%" height="hug-content" id="reportTemplate">
+  <f-div
+    state="default"
+    width="100%"
+    style="max-width: 600px"
+    height="hug-content"
+    id="reportTemplate"
+  >
     <f-div direction="column" height="hug-content">
       <f-div
         state="subtle"
@@ -32,6 +38,7 @@
             size="x-small"
             weight="medium"
             state="secondary"
+            inline
             >ACCOUNTING ENGINE</f-text
           >
           <f-text
@@ -42,17 +49,12 @@
             >(accounting-engine-1)</f-text
           >
         </f-div>
-        <f-div
-          height="hug-content"
-          state="default"
-          gap="auto"
-          padding="none medium"
-        >
+        <f-div height="hug-content" state="default" gap="auto">
           <f-div
             direction="column"
             gap="x-large"
             class="custom-report-width"
-            width="450px"
+            width="380px"
           >
             <f-div height="hug-content" gap="small" direction="column">
               <f-text
@@ -191,12 +193,7 @@
           state="secondary"
           >IN SCOPE REGULATIONS</f-text
         >
-        <f-div
-          padding="none medium"
-          height="hug-content"
-          gap="x-large"
-          direction="column"
-        >
+        <f-div height="hug-content" gap="x-large" direction="column">
           <f-div
             direction="column"
             overflow="scroll"
@@ -263,12 +260,7 @@
           state="secondary"
           >APPLICATION COMPONENTS</f-text
         >
-        <f-div
-          state="default"
-          height="hug-content"
-          padding="none medium"
-          gap="x-large"
-        >
+        <f-div state="default" height="hug-content" gap="x-large">
           <f-div
             gap="x-small"
             height="hug-content"
